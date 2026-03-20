@@ -9,7 +9,8 @@ Solution: TrustLens provides a two-stage verification system: ->Authenticity Ver
 Key Features: ->Deepfake detection using AI models ->Media authenticity verification through hashing ->Secure data transfer using HTTPS (Encryption in Transit) ->User-friendly interface for uploading and verifying media ->Fast and automated verification process
 
 System Architecture:
-![Architecture Page](screenshots/architecture.png)
+
+![Architecture](deepfake-main/screenshots/architecture.png)
 
 Tech Stack:
 
@@ -24,26 +25,25 @@ Install dependencies: pip install -r requirements.txt
 Run the application: python main.py
 Demo Screenshots:
 
-Authentication Page
-![Authentication Page](screenshots/authentication.png)
+ Authentication
+![Authentication](deepfake-main/screenshots/authentication.png)
 
-Upload Page
-![Upload Page](screenshots/uploadPage.png)
+ Authenticity Check
+![Authenticity](deepfake-main/screenshots/authenticity.png)
 
-Authenticity Page
-![Authenticity Page](screenshots/authenticity.png)
+ Deepfake Analysis
+![Deepfake Analysis](deepfake-main/screenshots/deepfakeAnalysis.png)
 
-Progress Page
-![Progress Page](screenshots/progress.png)
+ Detection Metrics
+![Detection Metrics](deepfake-main/screenshots/detectionMetrics.png)
 
-Deepfake Analysis Page
-![Deepfake Analysis Page](screenshots/deepfakeAnalysis.png)
+Progress
+![Progress](deepfake-main/screenshots/progress.png)
 
-Detection Metrics Page
-![Detection Metrics Page](screenshots/detectionMetrics.png)
+Recommended Steps
+![Recommended Steps](deepfake-main/screenshots/recommendedSteps.png)
 
-Recommended Steps Page
-![Recommended Steps Page](screenshots/recommendedSteps.png)
+
 
 
 
