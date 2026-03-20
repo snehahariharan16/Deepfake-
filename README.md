@@ -18,7 +18,7 @@ Tech Stack:
 
 ->Frontend: HTML CSS JavaScript ->Backend: Python ->AI / Processing: EfficientNet Spectogram Wav2Vec Frequency Detector Temporal Detector Frame Detector ->Security: Hashing for media integrity HTTPS for encryption in transit AES encryption for secure data handling
 
-Installation: Clone the repository: git clone https://github.com/Sathya903/deepfake.git
+Installation: Clone the repository:git clone https://github.com/snehahariharan16/Deepfake-.git
 
 Navigate to the project folder: cd deepfake
 
