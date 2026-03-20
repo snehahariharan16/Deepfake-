@@ -8,12 +8,9 @@ Solution: TrustLens provides a two-stage verification system: ->Authenticity Ver
 
 Key Features: ->Deepfake detection using AI models ->Media authenticity verification through hashing ->Secure data transfer using HTTPS (Encryption in Transit) ->User-friendly interface for uploading and verifying media ->Fast and automated verification process
 
+System Architecture:
+![Architecture Page](screenshots/architecture.png)
 
-
-### 🏗️ System Architecture
-<p align="center">
-  <img src="screenshots/architecture.png" width="600"/>
-</p>
 Tech Stack:
 
 ->Frontend: HTML CSS JavaScript ->Backend: Python ->AI / Processing: EfficientNet Spectogram Wav2Vec Frequency Detector Temporal Detector Frame Detector ->Security: Hashing for media integrity HTTPS for encryption in transit AES encryption for secure data handling
@@ -25,41 +22,31 @@ Navigate to the project folder: cd deepfake
 Install dependencies: pip install -r requirements.txt
 
 Run the application: python main.py
+Demo Screenshots:
 
-### 🔐 Authentication Page
-<p align="center">
-  <img src="screenshots/authentication.png" width="600"/>
-</p>
+Authentication Page
+![Authentication Page](screenshots/authentication.png)
 
-### 📤 Upload Page
-<p align="center">
-  <img src="screenshots/uploadPage.png" width="600"/>
-</p>
+Upload Page
+![Upload Page](screenshots/uploadPage.png)
 
-### ✅ Authenticity Check
-<p align="center">
-  <img src="screenshots/authenticity.png" width="600"/>
-</p>
+Authenticity Page
+![Authenticity Page](screenshots/authenticity.png)
 
-### ⏳ Progress Page
-<p align="center">
-  <img src="screenshots/progress.png" width="600"/>
-</p>
+Progress Page
+![Progress Page](screenshots/progress.png)
 
-### 🤖 Deepfake Analysis
-<p align="center">
-  <img src="screenshots/deepfakeAnalysis.png" width="600"/>
-</p>
+Deepfake Analysis Page
+![Deepfake Analysis Page](screenshots/deepfakeAnalysis.png)
 
-### 📊 Detection Metrics
-<p align="center">
-  <img src="screenshots/detectionMetrics.png" width="600"/>
-</p>
+Detection Metrics Page
+![Detection Metrics Page](screenshots/detectionMetrics.png)
 
-### 📌 Recommended Steps
-<p align="center">
-  <img src="screenshots/recommendedSteps.png" width="600"/>
-</p>
+Recommended Steps Page
+![Recommended Steps Page](screenshots/recommendedSteps.png)
+
+
+
 Security Considerations: ->TrustLens integrates multiple security mechanisms: ->Hashing to verify media integrity ->Encryption in Transit (HTTPS/TLS) to protect data during transfer ->Secure backend processing to prevent unauthorized manipulation
 
 Future Improvements: ->Real-time video deepfake detection ->Blockchain-based media authenticity tracking ->Integration with social media platforms ->Improved AI model accuracy
