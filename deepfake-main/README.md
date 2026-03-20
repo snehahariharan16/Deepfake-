@@ -24,7 +24,8 @@ Key Features:
    ->Fast and automated verification process
 
 System Architecture:
-![Architecture](https://raw.githubusercontent.com/USERNAME/REPO/main/screenshots/architecture.png)
+![Architecture Page](screenshots/architecture.png)
+
 
 Tech Stack:
 
